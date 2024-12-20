@@ -1,6 +1,6 @@
 local orgs = import 'vendor/otterdog-defaults/otterdog-defaults.libsonnet';
 
-orgs.newOrg('eclipse-omr') {
+orgs.newOrg('technology.omr', 'eclipse-omr') {
   settings+: {
     description: "",
     name: "Eclipse OMR",
